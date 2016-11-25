@@ -77,7 +77,7 @@ candidate_links = index.block('lastname')
 compare = rl.Compare(candidate_links, A, B)
 
 '''
-compare.string('name', 'name', method='jarowinkler', threshold=0.85)'''
+compare.string('name', 'name', method='jarowinkler', threshold=0.85)''' #I'm having issues with this attribute. 
 compare.exact('sex', 'sex')
 compare.exact('age', 'age')
 
